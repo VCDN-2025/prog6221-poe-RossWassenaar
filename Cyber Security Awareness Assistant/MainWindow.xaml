@@ -5,8 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Cyber_Security_Awareness_Assistant"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="496" Width="800">
+    <Grid Margin="0,0,0,-6">
+        <ListBox x:Name="ListView_TaskList" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,45,400,10"/>
+        <Label x:Name="Label_TaskListTitle" Content="Task List" HorizontalAlignment="Left" VerticalAlignment="Top" Height="48" Width="400" FontSize="24"/>
+        <Label x:Name="Label_AddTaskTitle" Content="Add a Task" HorizontalAlignment="Left" VerticalAlignment="Top" Height="48" Width="400" FontSize="24" Margin="400,0,0,0"/>
+        <TextBox x:Name="TextBox_TaskTitle" HorizontalAlignment="Left" Margin="424,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="352" Height="40" FontSize="24"/>
+        <Label x:Name="Label_TaskTitle" Content="Title:" HorizontalAlignment="Left" Margin="424,58,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="TextBox_TaskDescription" HorizontalAlignment="Left" Margin="424,177,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="352" Height="120" FontSize="16"/>
+        <Label x:Name="Label_TaskDescription" Content="Description:" HorizontalAlignment="Left" Margin="424,146,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <DatePicker x:Name="DatePicker_ReminderDate" HorizontalAlignment="Left" Margin="476,361,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="ComboBox_ReminderTime" HorizontalAlignment="Left" Margin="656,361,0,0" VerticalAlignment="Top" Width="120" Height="27"/>
+        <Label x:Name="Label_ReminderTitle" Content="Set a Reminder:" HorizontalAlignment="Left" Margin="424,325,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label x:Name="Label_ReminderDate" Content="Date:" HorizontalAlignment="Left" Margin="424,357,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label x:Name="Label_ReminderTime" Content="Date:" HorizontalAlignment="Left" Margin="594,357,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Button x:Name="Button_AddTask" Content="Add Task" HorizontalAlignment="Left" Margin="565,424,0,0" VerticalAlignment="Top" Height="31" Width="70" FontWeight="Bold" FontSize="14"/>
 
     </Grid>
 </Window>

@@ -22,10 +22,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Assets\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Update="Assets\Cyber Security Logo.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

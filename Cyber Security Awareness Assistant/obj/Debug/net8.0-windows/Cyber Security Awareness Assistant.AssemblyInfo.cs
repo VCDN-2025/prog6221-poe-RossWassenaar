@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cyber Security Awareness Assistant")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12300ff23c899ce84d7b4c6413144fb6e52ae4e9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cyber Security Awareness Assistant")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cyber Security Awareness Assistant")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
