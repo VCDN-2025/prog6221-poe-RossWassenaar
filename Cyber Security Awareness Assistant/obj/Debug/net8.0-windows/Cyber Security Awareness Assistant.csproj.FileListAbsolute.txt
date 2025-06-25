@@ -29,3 +29,6 @@ C:\Users\rossr\OneDrive\Varsity\Module Work\PROG6221\POE PROG6221\prog6221-poe-R
 C:\Users\rossr\OneDrive\Varsity\Module Work\PROG6221\POE PROG6221\prog6221-poe-RossWassenaar\Cyber Security Awareness Assistant\obj\Debug\net8.0-windows\ref\Cyber Security Awareness Assistant.dll
 C:\Users\rossr\OneDrive\Varsity\Module Work\PROG6221\POE PROG6221\prog6221-poe-RossWassenaar\Cyber Security Awareness Assistant\bin\Debug\net8.0-windows\Assets\Cyber Security Logo.png
 C:\Users\rossr\OneDrive\Varsity\Module Work\PROG6221\POE PROG6221\prog6221-poe-RossWassenaar\Cyber Security Awareness Assistant\bin\Debug\net8.0-windows\Assets\Voice Greeting.wav
+C:\Users\rossr\OneDrive\Varsity\Module Work\PROG6221\POE PROG6221\prog6221-poe-RossWassenaar\Cyber Security Awareness Assistant\obj\Debug\net8.0-windows\Cyber Security Awareness Assistant.sourcelink.json
+C:\Users\rossr\OneDrive\Varsity\Module Work\PROG6221\POE PROG6221\prog6221-poe-RossWassenaar\Cyber Security Awareness Assistant\bin\Debug\net8.0-windows\Assets\TaskList.txt
+C:\Users\rossr\OneDrive\Varsity\Module Work\PROG6221\POE PROG6221\prog6221-poe-RossWassenaar\Cyber Security Awareness Assistant\obj\Debug\net8.0-windows\Cyber Security Awareness Assistant_Content.g.cs

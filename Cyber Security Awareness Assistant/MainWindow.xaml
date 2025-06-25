@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Cyber_Security_Awareness_Assistant"
         mc:Ignorable="d"
-        Title="MainWindow" Height="496" Width="800">
+        Title="MainWindow" Height="515" Width="800">
     <Grid Margin="0,0,0,-6">
-        <ListBox x:Name="ListView_TaskList" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,45,400,10"/>
+        <ListBox x:Name="ListView_TaskList" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,45,400,117"/>
         <Label x:Name="Label_TaskListTitle" Content="Task List" HorizontalAlignment="Left" VerticalAlignment="Top" Height="48" Width="400" FontSize="24"/>
         <Label x:Name="Label_AddTaskTitle" Content="Add a Task" HorizontalAlignment="Left" VerticalAlignment="Top" Height="48" Width="400" FontSize="24" Margin="400,0,0,0"/>
         <TextBox x:Name="TextBox_TaskTitle" HorizontalAlignment="Left" Margin="424,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="352" Height="40" FontSize="24"/>
@@ -15,11 +15,63 @@
         <TextBox x:Name="TextBox_TaskDescription" HorizontalAlignment="Left" Margin="424,177,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="352" Height="120" FontSize="16"/>
         <Label x:Name="Label_TaskDescription" Content="Description:" HorizontalAlignment="Left" Margin="424,146,0,0" VerticalAlignment="Top" FontSize="16"/>
         <DatePicker x:Name="DatePicker_ReminderDate" HorizontalAlignment="Left" Margin="476,361,0,0" VerticalAlignment="Top"/>
-        <ComboBox x:Name="ComboBox_ReminderTime" HorizontalAlignment="Left" Margin="656,361,0,0" VerticalAlignment="Top" Width="120" Height="27"/>
+        <ComboBox x:Name="ComboBox_ReminderTime" HorizontalAlignment="Left" Margin="656,361,0,0" VerticalAlignment="Top" Width="120" Height="27">
+            <ComboBoxItem Content="00:00"/>
+            <ComboBoxItem Content="00:30"/>
+            <ComboBoxItem Content="01:00"/>
+            <ComboBoxItem Content="01:30"/>
+            <ComboBoxItem Content="02:00"/>
+            <ComboBoxItem Content="02:30"/>
+            <ComboBoxItem Content="03:00"/>
+            <ComboBoxItem Content="03:30"/>
+            <ComboBoxItem Content="04:00"/>
+            <ComboBoxItem Content="04:30"/>
+            <ComboBoxItem Content="05:00"/>
+            <ComboBoxItem Content="05:30"/>
+            <ComboBoxItem Content="06:00"/>
+            <ComboBoxItem Content="06:30"/>
+            <ComboBoxItem Content="07:00"/>
+            <ComboBoxItem Content="07:30"/>
+            <ComboBoxItem Content="08:00"/>
+            <ComboBoxItem Content="08:30"/>
+            <ComboBoxItem Content="09:00"/>
+            <ComboBoxItem Content="09:30"/>
+            <ComboBoxItem Content="10:00"/>
+            <ComboBoxItem Content="10:30"/>
+            <ComboBoxItem Content="11:00"/>
+            <ComboBoxItem Content="11:30"/>
+            <ComboBoxItem Content="12:00"/>
+            <ComboBoxItem Content="12:30"/>
+            <ComboBoxItem Content="13:00"/>
+            <ComboBoxItem Content="13:30"/>
+            <ComboBoxItem Content="14:00"/>
+            <ComboBoxItem Content="14:30"/>
+            <ComboBoxItem Content="15:00"/>
+            <ComboBoxItem Content="15:30"/>
+            <ComboBoxItem Content="16:00"/>
+            <ComboBoxItem Content="16:30"/>
+            <ComboBoxItem Content="17:00"/>
+            <ComboBoxItem Content="17:30"/>
+            <ComboBoxItem Content="18:00"/>
+            <ComboBoxItem Content="18:30"/>
+            <ComboBoxItem Content="19:00"/>
+            <ComboBoxItem Content="19:30"/>
+            <ComboBoxItem Content="20:00"/>
+            <ComboBoxItem Content="20:30"/>
+            <ComboBoxItem Content="21:00"/>
+            <ComboBoxItem Content="21:30"/>
+            <ComboBoxItem Content="22:00"/>
+            <ComboBoxItem Content="22:30"/>
+            <ComboBoxItem Content="23:00"/>
+            <ComboBoxItem Content="23:30"/>
+        </ComboBox>
         <Label x:Name="Label_ReminderTitle" Content="Set a Reminder:" HorizontalAlignment="Left" Margin="424,325,0,0" VerticalAlignment="Top" FontSize="16"/>
         <Label x:Name="Label_ReminderDate" Content="Date:" HorizontalAlignment="Left" Margin="424,357,0,0" VerticalAlignment="Top" FontSize="16"/>
         <Label x:Name="Label_ReminderTime" Content="Date:" HorizontalAlignment="Left" Margin="594,357,0,0" VerticalAlignment="Top" FontSize="16"/>
-        <Button x:Name="Button_AddTask" Content="Add Task" HorizontalAlignment="Left" Margin="565,424,0,0" VerticalAlignment="Top" Height="31" Width="70" FontWeight="Bold" FontSize="14"/>
+        <Button x:Name="Button_AddTask" Content="Add Task" HorizontalAlignment="Left" Margin="565,424,0,0" VerticalAlignment="Top" Height="31" Width="70" FontWeight="Bold" FontSize="14" Click="Button_AddTask_Click"/>
+        <Button x:Name="Button_Delete" Content="Delete Selected" HorizontalAlignment="Left" Margin="47,424,0,0" VerticalAlignment="Top" Height="31" Width="127" FontSize="14" FontWeight="Bold" Click="Button_Delete_Click"/>
+        <Button x:Name="Button_MarkCompleted" Content="Mark Completed" HorizontalAlignment="Left" Margin="216,424,0,0" VerticalAlignment="Top" Height="31" Width="129" FontSize="14" FontWeight="Bold" Click="Button_MarkCompleted_Click"/>
+
 
     </Grid>
 </Window>

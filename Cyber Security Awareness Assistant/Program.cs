@@ -1,4 +1,5 @@
-﻿using Figgle;
+﻿using CyberSecurityAwarenessAssistant;
+using Figgle;
 using System;
 using System.ComponentModel.Design;
 using System.Windows;
@@ -49,6 +50,8 @@ namespace Cyber_Security_Awareness_Assistant
             index = input.IndexOf(" "); //finding the index of the first space, in order to remove the text before the actual user input
             name = input.Substring(index + 1).Trim(); //capturing the user's name by removing the text before the colon and trimming any extra spaces
             Console.ForegroundColor = ConsoleColor.White;
+
+            TaskReminderService.StartReminderMonitor(); //starting the task reminder service to monitor tasks, enables notifications for tasks
 
             Console.WriteLine("Out of the following list: what is your favourite cyber security topic?");
             showListOfTopics();
@@ -220,6 +223,8 @@ namespace Cyber_Security_Awareness_Assistant
             Console.ForegroundColor = ConsoleColor.White; //resetting the color of the text to white
             return input.Substring(index + 1).Trim().ToLower();
         }
+
+
 
     }
 }
