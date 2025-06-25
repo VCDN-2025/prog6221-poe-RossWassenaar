@@ -1,0 +1,148 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rossr\\OneDrive\\Varsity\\Module Work\\PROG6221\\POE PROG6221\\prog6221-poe-RossWassenaar\\Cyber Security Awareness Assistant\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B33E13-0C5A-4D00-832F-C11F59524FFB}|Cyber Security Awareness Assistant.csproj|c:\\users\\rossr\\onedrive\\varsity\\module work\\prog6221\\poe prog6221\\prog6221-poe-rosswassenaar\\cyber security awareness assistant\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4B33E13-0C5A-4D00-832F-C11F59524FFB}|Cyber Security Awareness Assistant.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B33E13-0C5A-4D00-832F-C11F59524FFB}|Cyber Security Awareness Assistant.csproj|c:\\users\\rossr\\onedrive\\varsity\\module work\\prog6221\\poe prog6221\\prog6221-poe-rosswassenaar\\cyber security awareness assistant\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4B33E13-0C5A-4D00-832F-C11F59524FFB}|Cyber Security Awareness Assistant.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B33E13-0C5A-4D00-832F-C11F59524FFB}|Cyber Security Awareness Assistant.csproj|c:\\users\\rossr\\onedrive\\varsity\\module work\\prog6221\\poe prog6221\\prog6221-poe-rosswassenaar\\cyber security awareness assistant\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B4B33E13-0C5A-4D00-832F-C11F59524FFB}|Cyber Security Awareness Assistant.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B33E13-0C5A-4D00-832F-C11F59524FFB}|Cyber Security Awareness Assistant.csproj|c:\\users\\rossr\\onedrive\\varsity\\module work\\prog6221\\poe prog6221\\prog6221-poe-rosswassenaar\\cyber security awareness assistant\\chatbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4B33E13-0C5A-4D00-832F-C11F59524FFB}|Cyber Security Awareness Assistant.csproj|solutionrelative:chatbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B33E13-0C5A-4D00-832F-C11F59524FFB}|Cyber Security Awareness Assistant.csproj|c:\\users\\rossr\\onedrive\\varsity\\module work\\prog6221\\poe prog6221\\prog6221-poe-rosswassenaar\\cyber security awareness assistant\\greeting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4B33E13-0C5A-4D00-832F-C11F59524FFB}|Cyber Security Awareness Assistant.csproj|solutionrelative:greeting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B33E13-0C5A-4D00-832F-C11F59524FFB}|Cyber Security Awareness Assistant.csproj|c:\\users\\rossr\\onedrive\\varsity\\module work\\prog6221\\poe prog6221\\prog6221-poe-rosswassenaar\\cyber security awareness assistant\\uxhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4B33E13-0C5A-4D00-832F-C11F59524FFB}|Cyber Security Awareness Assistant.csproj|solutionrelative:uxhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B33E13-0C5A-4D00-832F-C11F59524FFB}|Cyber Security Awareness Assistant.csproj|c:\\users\\rossr\\onedrive\\varsity\\module work\\prog6221\\poe prog6221\\prog6221-poe-rosswassenaar\\cyber security awareness assistant\\cyber security awareness assistant.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{B4B33E13-0C5A-4D00-832F-C11F59524FFB}|Cyber Security Awareness Assistant.csproj|solutionrelative:cyber security awareness assistant.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Greeting.cs",
+              "DocumentMoniker": "C:\\Users\\rossr\\OneDrive\\Varsity\\Module Work\\PROG6221\\POE PROG6221\\prog6221-poe-RossWassenaar\\Cyber Security Awareness Assistant\\Greeting.cs",
+              "RelativeDocumentMoniker": "Greeting.cs",
+              "ToolTip": "C:\\Users\\rossr\\OneDrive\\Varsity\\Module Work\\PROG6221\\POE PROG6221\\prog6221-poe-RossWassenaar\\Cyber Security Awareness Assistant\\Greeting.cs",
+              "RelativeToolTip": "Greeting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T15:17:28.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UXHelper.cs",
+              "DocumentMoniker": "C:\\Users\\rossr\\OneDrive\\Varsity\\Module Work\\PROG6221\\POE PROG6221\\prog6221-poe-RossWassenaar\\Cyber Security Awareness Assistant\\UXHelper.cs",
+              "RelativeDocumentMoniker": "UXHelper.cs",
+              "ToolTip": "C:\\Users\\rossr\\OneDrive\\Varsity\\Module Work\\PROG6221\\POE PROG6221\\prog6221-poe-RossWassenaar\\Cyber Security Awareness Assistant\\UXHelper.cs",
+              "RelativeToolTip": "UXHelper.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T15:16:37.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rossr\\OneDrive\\Varsity\\Module Work\\PROG6221\\POE PROG6221\\prog6221-poe-RossWassenaar\\Cyber Security Awareness Assistant\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\rossr\\OneDrive\\Varsity\\Module Work\\PROG6221\\POE PROG6221\\prog6221-poe-RossWassenaar\\Cyber Security Awareness Assistant\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAQwE8AAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T15:15:00.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Cyber Security Awareness Assistant",
+              "DocumentMoniker": "C:\\Users\\rossr\\OneDrive\\Varsity\\Module Work\\PROG6221\\POE PROG6221\\prog6221-poe-RossWassenaar\\Cyber Security Awareness Assistant\\Cyber Security Awareness Assistant.csproj",
+              "RelativeDocumentMoniker": "Cyber Security Awareness Assistant.csproj",
+              "ToolTip": "C:\\Users\\rossr\\OneDrive\\Varsity\\Module Work\\PROG6221\\POE PROG6221\\prog6221-poe-RossWassenaar\\Cyber Security Awareness Assistant\\Cyber Security Awareness Assistant.csproj",
+              "RelativeToolTip": "Cyber Security Awareness Assistant.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-25T15:13:53.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\rossr\\OneDrive\\Varsity\\Module Work\\PROG6221\\POE PROG6221\\prog6221-poe-RossWassenaar\\Cyber Security Awareness Assistant\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\rossr\\OneDrive\\Varsity\\Module Work\\PROG6221\\POE PROG6221\\prog6221-poe-RossWassenaar\\Cyber Security Awareness Assistant\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-25T14:59:04.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\rossr\\OneDrive\\Varsity\\Module Work\\PROG6221\\POE PROG6221\\prog6221-poe-RossWassenaar\\Cyber Security Awareness Assistant\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\rossr\\OneDrive\\Varsity\\Module Work\\PROG6221\\POE PROG6221\\prog6221-poe-RossWassenaar\\Cyber Security Awareness Assistant\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T14:59:00.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChatBot.cs",
+              "DocumentMoniker": "C:\\Users\\rossr\\OneDrive\\Varsity\\Module Work\\PROG6221\\POE PROG6221\\prog6221-poe-RossWassenaar\\Cyber Security Awareness Assistant\\ChatBot.cs",
+              "RelativeDocumentMoniker": "ChatBot.cs",
+              "ToolTip": "C:\\Users\\rossr\\OneDrive\\Varsity\\Module Work\\PROG6221\\POE PROG6221\\prog6221-poe-RossWassenaar\\Cyber Security Awareness Assistant\\ChatBot.cs",
+              "RelativeToolTip": "ChatBot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAN4BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T15:18:06.369Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
