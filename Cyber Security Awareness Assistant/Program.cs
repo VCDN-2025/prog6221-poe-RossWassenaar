@@ -72,21 +72,31 @@ namespace Cyber_Security_Awareness_Assistant
             //Displaying the personalized welcoming message using the user's name
             UXHelper.DisplayWelcomeMessage(name);
 
+            var app = new Application();
+            string taskChoice = ""; //initializing taskChoice variable to capture the user's choice of task
+
             do
             {
-                string taskChoice = ""; //initializing taskChoice variable to capture the user's choice of task
+                
                 Console.ForegroundColor = ConsoleColor.White;
-                Console.WriteLine("Please select a task\n1: Chat with the chatbot\n2: Open the task assistant");
+                Console.WriteLine("Please select a task\n1: Chat with the chatbot\n2: Open the task assistant\n3: Play the cybersecurity quiz");
                 do
                 {
+                    
                     Console.WriteLine("Please select a task by typing in the corresponding number: (1 or 2)"); //prompting the user to select a task
                     taskChoice = acceptUserInput(); //capturing the user's choice of task
                     if (taskChoice == "2")
                     {
-                        var app = new Application();
-                        var window = new MainWindow(); // Make sure you have a MainWindow.xaml
-                        app.Run(window);
+                        //var app = new Application();
+                        var window = new MainWindow();
+                        window.ShowDialog();
 
+                    }
+                    else if (taskChoice == "3")
+                    {
+                        //var app = new Application();
+                        var window = new Quiz();
+                        window.ShowDialog();
                     }
                 } while (taskChoice != "1"); //looping until the user selects the chat task
 

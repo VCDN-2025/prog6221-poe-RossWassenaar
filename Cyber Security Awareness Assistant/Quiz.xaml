@@ -1,0 +1,61 @@
+﻿<Window x:Class="Cyber_Security_Awareness_Assistant.Quiz"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cyber_Security_Awareness_Assistant"
+        mc:Ignorable="d"
+        Title="Quiz" Height="631" Width="1534">
+    <Grid Margin="0,0,0,-6">
+        <Label x:Name="Label_QuizTitle" Content="Cyber Security Quiz" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label x:Name="Label_Question1" Content="1: Which of these is dangerous to your computer?" HorizontalAlignment="Left" Margin="10,64,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Button x:Name="Button_Question1Answer1" Content="Virus" HorizontalAlignment="Left" Margin="32,100,0,0" VerticalAlignment="Top" FontSize="16" Width="50" Height="40" Click="Button_Question1Answer1_Click"/>
+        <Button x:Name="Button_Question1Answer2" Content="Bacteria" HorizontalAlignment="Left" Margin="115,100,0,0" VerticalAlignment="Top" FontSize="16" Height="40" Click="Button_Question1Answer2_Click"/>
+        <Button x:Name="Button_Question1Answer3" Content="Cancer" HorizontalAlignment="Left" Margin="209,100,0,0" VerticalAlignment="Top" FontSize="16" Height="40" Width="60" Click="Button_Question1Answer3_Click"/>
+        <Button x:Name="Button_Question2Answer1" Content="Length" HorizontalAlignment="Left" Margin="31,197,0,0" VerticalAlignment="Top" FontSize="16" Height="39" Click="Button_Question2Answer1_Click"/>
+        <Label x:Name="Label_Question2" Content="2: What doesn't make a strong password?" HorizontalAlignment="Left" Margin="10,161,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Button x:Name="Button_Question2Answer2" Content="Using numbers and special characters" HorizontalAlignment="Left" Margin="115,197,0,0" VerticalAlignment="Top" Width="285" FontSize="16" Height="39" Click="Button_Question2Answer2_Click"/>
+        <Button x:Name="Button_Question2Answer3" Content="Muscles" HorizontalAlignment="Left" Margin="427,197,0,0" VerticalAlignment="Top" FontSize="16" Height="39" Click="Button_Question2Answer3_Click"/>
+        <Label x:Name="Label_Question3" Content="3: True or False? Multi-factor authentication is more secure than single-factor authentication." HorizontalAlignment="Left" Margin="10,255,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Button x:Name="Button_Question3AnswerTrue" Content="True" HorizontalAlignment="Left" Margin="35,291,0,0" VerticalAlignment="Top" FontSize="16" Height="42" Width="44" Click="Button_Question3AnswerTrue_Click"/>
+        <Button x:Name="Button_Question3AnswerFalse" Content="False" HorizontalAlignment="Left" Margin="125,291,0,0" VerticalAlignment="Top" Height="42" Width="50" FontSize="16" Click="Button_Question3AnswerFalse_Click"/>
+        <Label x:Name="Label_Question1Result" Content="" HorizontalAlignment="Left" Margin="400,61,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label x:Name="Label_Question2Result" Content="" HorizontalAlignment="Left" Margin="522,158,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.557,0.117" FontSize="20"/>
+        <Label x:Name="Label_Question3Result" Content="" HorizontalAlignment="Left" Margin="692,252,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label x:Name="Label_Question4" Content="4: True or False? Cleaning your pc with soap and water will wash away malware." HorizontalAlignment="Left" Margin="10,350,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Button x:Name="Button_Question4AnswerTrue" Content="True" HorizontalAlignment="Left" Margin="32,386,0,0" VerticalAlignment="Top" FontSize="16" Height="43" Width="47" Click="Button_Question4AnswerTrue_Click"/>
+        <Button x:Name="Button_Question4AnswerFalse" Content="False" HorizontalAlignment="Left" Margin="126,386,0,0" VerticalAlignment="Top" FontSize="16" Height="43" Width="48" Click="Button_Question4AnswerFalse_Click"/>
+        <Label x:Name="Label_Question5" Content="5: True or False? Clicking on links in emails is fun and should always be done." HorizontalAlignment="Left" Margin="10,447,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Button x:Name="Button_Question5AnswerTrue" Content="True" HorizontalAlignment="Left" Margin="34,483,0,0" VerticalAlignment="Top" FontSize="16" Height="43" Width="47" Click="Button_Question5AnswerTrue_Click"/>
+        <Button x:Name="Button_Question5AnswerFalse" Content="False" HorizontalAlignment="Left" Margin="126,483,0,0" VerticalAlignment="Top" FontSize="16" Height="43" Width="48" Click="Button_Question5AnswerFalse_Click"/>
+        <Label x:Name="Label_Question6" Content="6: Which one of these cybersecurity groups launched attacks on ISIS and Al Queda?" HorizontalAlignment="Left" Margin="777,68,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Button x:Name="Button_Question6Answer1" Content="GhostSec" HorizontalAlignment="Left" Margin="801,104,0,0" VerticalAlignment="Top" FontSize="16" Height="43" Width="77" Click="Button_Question6Answer1_Click"/>
+        <Button x:Name="Button_Question6Answer2" Content="PhantomSec" HorizontalAlignment="Left" Margin="912,104,0,0" VerticalAlignment="Top" FontSize="16" Height="43" Width="113" Click="Button_Question6Answer2_Click"/>
+        <Button x:Name="Button_Question6Answer3" Content="GhoulSec" HorizontalAlignment="Left" Margin="1059,104,0,0" VerticalAlignment="Top" FontSize="16" Height="43" Width="88" Click="Button_Question6Answer3_Click"/>
+        <Label x:Name="Label_Question7" Content="7: What is the name of the anti-virus shipped with windows PCs?" HorizontalAlignment="Left" Margin="777,177,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Button x:Name="Button_Question7Answer1" Content="Windows Defender" HorizontalAlignment="Left" Margin="798,213,0,0" VerticalAlignment="Top" FontSize="16" Height="43" Width="143" Click="Button_Question7Answer1_Click"/>
+        <Button x:Name="Button_Question7Answer2" Content="Windows Attacker" HorizontalAlignment="Left" Margin="981,213,0,0" VerticalAlignment="Top" FontSize="16" Height="43" Width="142" Click="Button_Question7Answer2_Click"/>
+        <Button x:Name="Button_Question7Answer3" Content="Windows Security" HorizontalAlignment="Left" Margin="1153,213,0,0" VerticalAlignment="Top" FontSize="16" Height="43" Width="142" Click="Button_Question7Answer3_Click"/>
+        <Label x:Name="Label_Question8" Content="8: What is the name of the software designed to protect an entire network?" HorizontalAlignment="Left" Margin="777,273,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Button x:Name="Button_Question8Answer1" Content="Firewall" HorizontalAlignment="Left" Margin="798,309,0,0" VerticalAlignment="Top" FontSize="16" Height="43" Width="80" Click="Button_Question8Answer1_Click"/>
+        <Button x:Name="Button_Question8Answer2" Content="Waterwall" HorizontalAlignment="Left" Margin="912,309,0,0" VerticalAlignment="Top" FontSize="16" Height="43" Width="80" Click="Button_Question8Answer2_Click"/>
+        <Button x:Name="Button_Question8Answer3" Content="Earthwall" HorizontalAlignment="Left" Margin="1028,309,0,0" VerticalAlignment="Top" FontSize="16" Height="43" Width="80" Click="Button_Question8Answer3_Click"/>
+        <Label x:Name="Label_Question9" Content="9: Which organization keeps a database of all software vulnerabilities?" HorizontalAlignment="Left" Margin="777,371,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Button x:Name="Button_Question9Answer1" Content="LIST" HorizontalAlignment="Left" Margin="798,407,0,0" VerticalAlignment="Top" FontSize="16" Height="43" Width="53" Click="Button_Question9Answer1_Click"/>
+        <Button x:Name="Button_Question9Answer2" Content="NIST" HorizontalAlignment="Left" Margin="886,407,0,0" VerticalAlignment="Top" FontSize="16" Height="43" Width="53" Click="Button_Question9Answer2_Click"/>
+        <Button x:Name="Button_Question9Answer3" Content="FIST" HorizontalAlignment="Left" Margin="971,407,0,0" VerticalAlignment="Top" FontSize="16" Height="43" Width="54" Click="Button_Question9Answer3_Click"/>
+        <Label x:Name="Label_Question10" Content="10: True or False? Software can never be truly secure." HorizontalAlignment="Left" Margin="777,468,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Button x:Name="Button_Question10AnswerTrue" Content="True" HorizontalAlignment="Left" Margin="798,504,0,0" VerticalAlignment="Top" FontSize="16" Height="43" Width="53" Click="Button_Question10AnswerTrue_Click"/>
+        <Button x:Name="Button_Question10AnswerFalse" Content="False" HorizontalAlignment="Left" Margin="886,504,0,0" VerticalAlignment="Top" FontSize="16" Height="43" Width="53" Click="Button_Question10AnswerFalse_Click"/>
+        <Label x:Name="Label_Question4Result" Content="" HorizontalAlignment="Left" Margin="597,350,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label x:Name="Label_Question5Result" Content="" HorizontalAlignment="Left" Margin="592,447,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label x:Name="Label_Question6Result" Content="" HorizontalAlignment="Left" Margin="1393,65,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label x:Name="Label_Question7Result" Content="" HorizontalAlignment="Left" Margin="1316,174,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label x:Name="Label_Question8Result" Content="" HorizontalAlignment="Left" Margin="1334,273,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label x:Name="Label_Question9Result" Content="" HorizontalAlignment="Left" Margin="1307,368,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label x:Name="Label_Question10Result" Content="" HorizontalAlignment="Left" Margin="1172,468,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label x:Name="Label_Score" Content="0/10" HorizontalAlignment="Left" Margin="933,18,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label x:Name="Label_ScoreMessage" Content="" HorizontalAlignment="Left" Margin="1028,23,0,0" VerticalAlignment="Top" FontSize="16"/>
+
+    </Grid>
+</Window>
