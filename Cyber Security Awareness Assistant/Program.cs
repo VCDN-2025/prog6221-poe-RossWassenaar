@@ -79,7 +79,7 @@ namespace Cyber_Security_Awareness_Assistant
             {
                 
                 Console.ForegroundColor = ConsoleColor.White;
-                Console.WriteLine("Please select a task\n1: Chat with the chatbot\n2: Open the task assistant\n3: Play the cybersecurity quiz");
+                Console.WriteLine("Please select a task\n1: Chat with the chatbot\n2: Open the task assistant\n3: Play the cybersecurity quiz\n4: Open Activity Log");
                 do
                 {
                     
@@ -91,12 +91,21 @@ namespace Cyber_Security_Awareness_Assistant
                         var window = new MainWindow();
                         window.ShowDialog();
 
+                        
                     }
                     else if (taskChoice == "3")
                     {
                         //var app = new Application();
                         var window = new Quiz();
                         window.ShowDialog();
+
+                        ActivityLog.QuizAttempts++; //incrementing the quiz attempts counter for the Activity Log
+                        ActivityLog.activityLog.Add($"Quiz attempted by {name} on {DateTime.Now.ToShortDateString()} at {DateTime.Now.ToShortTimeString()}.");
+                    }
+                    else if (taskChoice == "4")
+                    {
+                        var window = new ActivityLog(); //creating a new instance of the ActivityLog window
+                        window.ShowDialog(); //showing the ActivityLog window
                     }
                 } while (taskChoice != "1"); //looping until the user selects the chat task
 

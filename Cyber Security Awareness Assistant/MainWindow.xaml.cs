@@ -38,9 +38,9 @@ namespace Cyber_Security_Awareness_Assistant
 
             string taskTitle = TextBox_TaskTitle.Text.Trim();
             string taskDescription = TextBox_TaskDescription.Text.Trim();
-            DateOnly taskDate = DateOnly.FromDateTime(DatePicker_ReminderDate.SelectedDate ?? DateTime.Now);
+            DateOnly? taskDate = DateOnly.FromDateTime(DatePicker_ReminderDate.SelectedDate ?? DateTime.Now);
 
-            string time = ComboBox_ReminderTime.Text?.ToString() ?? "12:00";
+            string? time = ComboBox_ReminderTime.Text?.ToString() ?? "12:00";
             TimeOnly taskTime;
             if (!TimeOnly.TryParse(time, out taskTime))
             {
@@ -50,29 +50,38 @@ namespace Cyber_Security_Awareness_Assistant
 
             string taskDetails = $"Title: {taskTitle}    Description: {taskDescription}    Date: {taskDate}    Time: {taskTime}";
 
-            // Build a full path to the Assets folder regardless of where the app runs
+            
             string filepath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Assets", "TaskList.txt");
 
             try
             {
-                // Ensure the Assets directory exists (just in case)
+                
                 Directory.CreateDirectory(System.IO.Path.GetDirectoryName(filepath));
 
-                // Append to the file
+                
                 using (StreamWriter writer = new StreamWriter(filepath, true))
                 {
                     writer.WriteLine(taskDetails);
                 }
 
-                // Optional: refresh the task list to show the new entry
+                
                 LoadTaskList();
                 MessageBox.Show("Task added successfully!");
+                ActivityLog.TasksCreated++; //incrementing the tasks created count for the activity log
+                ActivityLog.activityLog.Add($"Task '{taskTitle}' created with description '{taskDescription}' on {taskDate?.ToShortDateString()} at {taskTime}.");
+
+                if (taskDate != null)
+                {
+                    ActivityLog.RemindersSet++; //incrementing the reminders set count for the activity log
+                    ActivityLog.activityLog.Add($"Reminder set for task '{taskTitle}' on {taskDate.Value.ToShortDateString()} at {taskTime}.");
+                }
             }
             catch (Exception ex)
             {
                 MessageBox.Show($"Failed to write task: {ex.Message}");
             }
 
+            
 
         }
 
@@ -93,15 +102,15 @@ namespace Cyber_Security_Awareness_Assistant
         {
             if (ListView_TaskList.SelectedItem is string selectedTask)
             {
-                // Remove from ListView
+                
                 var tasks = ListView_TaskList.Items.Cast<string>().ToList();
                 tasks.Remove(selectedTask);
 
-                // Update the file
+                
                 string filepath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Assets", "TaskList.txt");
                 File.WriteAllLines(filepath, tasks);
 
-                // Refresh the ListView
+                
                 ListView_TaskList.ItemsSource = null;
                 ListView_TaskList.ItemsSource = tasks;
             }
@@ -116,29 +125,37 @@ namespace Cyber_Security_Awareness_Assistant
         {
             if (ListView_TaskList.SelectedItem is string selectedTask)
             {
-                // Avoid marking the same task twice
+                
                 if (selectedTask.Contains("[COMPLETED]")) return;
 
                 string updatedTask = "[COMPLETED] " + selectedTask;
 
-                // Update the list
+                
                 var tasks = ListView_TaskList.Items.Cast<string>().ToList();
                 int index = tasks.IndexOf(selectedTask);
                 tasks[index] = updatedTask;
 
-                // Update the file
+                
                 string filepath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Assets", "TaskList.txt");
                 File.WriteAllLines(filepath, tasks);
 
-                // Refresh the ListView
+                
                 ListView_TaskList.ItemsSource = null;
                 ListView_TaskList.ItemsSource = tasks;
+
+                ActivityLog.TasksCompleted++; //incrementing the tasks completed count for the activity log
+                ActivityLog.activityLog.Add($"Task '{selectedTask}' marked as completed.");
             }
             else
             {
                 MessageBox.Show("Please select a task to mark as completed.");
             }
 
+        }
+
+        private void Button_Exit_Click(object sender, RoutedEventArgs e)
+        {
+            Hide();
         }
     }
 }

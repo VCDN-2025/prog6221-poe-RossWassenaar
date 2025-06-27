@@ -221,5 +221,10 @@ namespace Cyber_Security_Awareness_Assistant
             Label_Question10Result.Content = "incorrect!";
             ScoreMessage();
         }
+
+        private void Button_Exit_Click(object sender, RoutedEventArgs e)
+        {
+            Hide(); // Hide the quiz window
+        }
     }
 }

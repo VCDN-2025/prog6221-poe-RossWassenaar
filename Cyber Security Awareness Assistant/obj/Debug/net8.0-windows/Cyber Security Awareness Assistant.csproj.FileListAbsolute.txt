@@ -34,3 +34,5 @@ C:\Users\rossr\OneDrive\Varsity\Module Work\PROG6221\POE PROG6221\prog6221-poe-R
 C:\Users\rossr\OneDrive\Varsity\Module Work\PROG6221\POE PROG6221\prog6221-poe-RossWassenaar\Cyber Security Awareness Assistant\obj\Debug\net8.0-windows\Cyber Security Awareness Assistant_Content.g.cs
 C:\Users\rossr\OneDrive\Varsity\Module Work\PROG6221\POE PROG6221\prog6221-poe-RossWassenaar\Cyber Security Awareness Assistant\obj\Debug\net8.0-windows\Quiz.g.cs
 C:\Users\rossr\OneDrive\Varsity\Module Work\PROG6221\POE PROG6221\prog6221-poe-RossWassenaar\Cyber Security Awareness Assistant\obj\Debug\net8.0-windows\Quiz.baml
+C:\Users\rossr\OneDrive\Varsity\Module Work\PROG6221\POE PROG6221\prog6221-poe-RossWassenaar\Cyber Security Awareness Assistant\obj\Debug\net8.0-windows\ActivityLog.g.cs
+C:\Users\rossr\OneDrive\Varsity\Module Work\PROG6221\POE PROG6221\prog6221-poe-RossWassenaar\Cyber Security Awareness Assistant\obj\Debug\net8.0-windows\ActivityLog.baml

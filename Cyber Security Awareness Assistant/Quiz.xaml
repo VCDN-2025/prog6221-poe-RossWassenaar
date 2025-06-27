@@ -56,6 +56,7 @@
         <Label x:Name="Label_Question10Result" Content="" HorizontalAlignment="Left" Margin="1172,468,0,0" VerticalAlignment="Top" FontSize="20"/>
         <Label x:Name="Label_Score" Content="0/10" HorizontalAlignment="Left" Margin="933,18,0,0" VerticalAlignment="Top" FontSize="20"/>
         <Label x:Name="Label_ScoreMessage" Content="" HorizontalAlignment="Left" Margin="1028,23,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Button x:Name="Button_Exit" Content="Exit Quiz" HorizontalAlignment="Left" Margin="1287,526,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Width="121" Height="61" Click="Button_Exit_Click"/>
 
     </Grid>
 </Window>
