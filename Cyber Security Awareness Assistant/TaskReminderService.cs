@@ -3,6 +3,15 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Timers;
+/*
+ * AI Declaration
+ * AI Used: ChatGPT
+ * Date of knowledge: June 2024
+ * Date used: 26 June 2025
+ * Reason: How to continously check the current time and use it in a condition.
+ * Prompt used: "how do I continuously check for the current time in C#"
+ * Available at: https://chatgpt.com/share/685eacab-7ec0-800e-8af7-1e296eb33d75 
+ */
 
 namespace CyberSecurityAwarenessAssistant
 {
@@ -16,7 +25,7 @@ namespace CyberSecurityAwarenessAssistant
         {
             LoadTasks();
 
-            reminderTimer = new System.Timers.Timer(10000); // Check every 10 seconds
+            reminderTimer = new System.Timers.Timer(10000); //checks every 10 seconds
             reminderTimer.Elapsed += CheckReminders;
             reminderTimer.AutoReset = true;
             reminderTimer.Enabled = true;

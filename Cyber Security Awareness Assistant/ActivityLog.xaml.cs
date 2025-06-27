@@ -40,7 +40,7 @@ namespace Cyber_Security_Awareness_Assistant
 
         private void Button_Exit_Click(object sender, RoutedEventArgs e)
         {
-            Hide(); // Hide the activity log window instead of closing it
+            Hide();
         }
     }
 }

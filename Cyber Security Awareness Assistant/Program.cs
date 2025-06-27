@@ -83,7 +83,7 @@ namespace Cyber_Security_Awareness_Assistant
                 do
                 {
                     
-                    Console.WriteLine("Please select a task by typing in the corresponding number: (1 or 2)"); //prompting the user to select a task
+                    Console.WriteLine("Please select a task by typing in the corresponding number: (1, 2, 3 or 4)"); //prompting the user to select a task
                     taskChoice = acceptUserInput(); //capturing the user's choice of task
                     if (taskChoice == "2")
                     {

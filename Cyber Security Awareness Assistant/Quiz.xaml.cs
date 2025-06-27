@@ -28,8 +28,8 @@ namespace Cyber_Security_Awareness_Assistant
         private void Button_Question1Answer1_Click(object sender, RoutedEventArgs e)
         {
             Label_Question1Result.Content = "Correct!";
-            Score += 1; // Increment score for correct answer
-            Label_Score.Content = $"{Score}/10"; // Update score display
+            Score += 1; //incrementing score for correct answer
+            Label_Score.Content = $"{Score}/10"; //updating score display
             ScoreMessage();
         }
 
@@ -81,16 +81,16 @@ namespace Cyber_Security_Awareness_Assistant
         private void Button_Question2Answer3_Click(object sender, RoutedEventArgs e)
         {
             Label_Question2Result.Content = "Correct!";
-            Score += 1; // Increment score for correct answer
-            Label_Score.Content = $"{Score}/10"; // Update score display
+            Score += 1; //incrementing score for correct answer
+            Label_Score.Content = $"{Score}/10"; //updating score display
             ScoreMessage();
         }
 
         private void Button_Question3AnswerTrue_Click(object sender, RoutedEventArgs e)
         {
             Label_Question3Result.Content = "Correct!";
-            Score += 1; // Increment score for correct answer
-            Label_Score.Content = $"{Score}/10"; // Update score display
+            Score += 1; //incrementing score for correct answer
+            Label_Score.Content = $"{Score}/10"; //updating score display
             ScoreMessage();
         }
 
@@ -109,8 +109,8 @@ namespace Cyber_Security_Awareness_Assistant
         private void Button_Question4AnswerFalse_Click(object sender, RoutedEventArgs e)
         {
             Label_Question4Result.Content = "Correct!";
-            Score += 1; // Increment score for correct answer
-            Label_Score.Content = $"{Score}/10"; // Update score display
+            Score += 1; //incrementing score for correct answer
+            Label_Score.Content = $"{Score}/10"; //updating score display
             ScoreMessage();
         }
 
@@ -123,16 +123,16 @@ namespace Cyber_Security_Awareness_Assistant
         private void Button_Question5AnswerFalse_Click(object sender, RoutedEventArgs e)
         {
             Label_Question5Result.Content = "Correct!";
-            Score += 1; // Increment score for correct answer
-            Label_Score.Content = $"{Score}/10"; // Update score display
+            Score += 1; //incrementing score for correct answer
+            Label_Score.Content = $"{Score}/10"; //updating score display
             ScoreMessage();
         }
 
         private void Button_Question6Answer1_Click(object sender, RoutedEventArgs e)
         {
             Label_Question6Result.Content = "Correct!";
-            Score += 1; // Increment score for correct answer
-            Label_Score.Content = $"{Score}/10"; // Update score display
+            Score += 1; //incrementing score for correct answer
+            Label_Score.Content = $"{Score}/10"; //updating score display
             ScoreMessage();
         }
 
@@ -163,16 +163,16 @@ namespace Cyber_Security_Awareness_Assistant
         private void Button_Question7Answer3_Click(object sender, RoutedEventArgs e)
         {
             Label_Question7Result.Content = "Correct!";
-            Score += 1; // Increment score for correct answer
-            Label_Score.Content = $"{Score}/10"; // Update score display
+            Score += 1; //incrementing score for correct answer
+            Label_Score.Content = $"{Score}/10"; //updating score display
             ScoreMessage();
         }
 
         private void Button_Question8Answer1_Click(object sender, RoutedEventArgs e)
         {
             Label_Question8Result.Content = "Correct!";
-            Score += 1; // Increment score for correct answer
-            Label_Score.Content = $"{Score}/10"; // Update score display
+            Score += 1; //incrementing score for correct answer
+            Label_Score.Content = $"{Score}/10"; //updating score display
             ScoreMessage();
         }
 
@@ -197,8 +197,8 @@ namespace Cyber_Security_Awareness_Assistant
         private void Button_Question9Answer2_Click(object sender, RoutedEventArgs e)
         {
             Label_Question9Result.Content = "Correct!";
-            Score += 1; // Increment score for correct answer
-            Label_Score.Content = $"{Score}/10"; // Update score display
+            Score += 1; //incrementing score for correct answer
+            Label_Score.Content = $"{Score}/10"; //updating score display
             ScoreMessage();
         }
 
@@ -211,8 +211,8 @@ namespace Cyber_Security_Awareness_Assistant
         private void Button_Question10AnswerTrue_Click(object sender, RoutedEventArgs e)
         {
             Label_Question10Result.Content = "Correct!";
-            Score += 1; // Increment score for correct answer
-            Label_Score.Content = $"{Score}/10"; // Update score display
+            Score += 1; //incrementing score for correct answer
+            Label_Score.Content = $"{Score}/10"; //updating score display
             ScoreMessage();
         }
 
@@ -224,7 +224,7 @@ namespace Cyber_Security_Awareness_Assistant
 
         private void Button_Exit_Click(object sender, RoutedEventArgs e)
         {
-            Hide(); // Hide the quiz window
+            Hide();
         }
     }
 }
